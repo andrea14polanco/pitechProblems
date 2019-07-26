@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "5b6e9ee69f3d6adb1638dc186db35dafcf6ed790"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "Humanizer.Core.es": "2.6.2",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "Humanizer.Core/2.6.2": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.2.50817"
+          }
+        }
+      },
+      "Humanizer.Core.es/2.6.2": {
+        "dependencies": {
+          "Humanizer.Core": "2.6.2"
+        },
+        "resources": {
+          "lib/netstandard2.0/es/Humanizer.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Humanizer.Core/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-17m0EzOAzzXQ387sHqGNIHSCZCrJ9nCwJoJ4jC6oCTG6KHhfbq4V9i/wSbTjNLYPbvrMPSc7MlF1f7qCZwxLdQ==",
+      "path": "humanizer.core/2.6.2",
+      "hashPath": "humanizer.core.2.6.2.nupkg.sha512"
+    },
+    "Humanizer.Core.es/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4L8TvHQ0kKLX3BqMcNp/HUpiLxVJ+DUGOswUhZ+MWK7bhdpJJkEfDhuLok0u07gHlbvj1s6MHXhyJwx2M2cYSw==",
+      "path": "humanizer.core.es/2.6.2",
+      "hashPath": "humanizer.core.es.2.6.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    }
+  }
+}
